@@ -1,10 +1,11 @@
-#Github Finder
-A simple JavaScript application which uses github api to fetch github users and their repositories
+# Github Finder
+A simple JavaScript application which uses GitHub API to fetch GitHub users and their repositories
 
-#Languages Used
+# Languages Used
 HTML and JavaScript
 
-I have used Bootswatch custom theme you can use any other styling it depends upon you, you just have to replace imports from index.html file.
+I have used the Bootswatch custom theme you can use any other styling it depends upon you, you just have to replace imports from the index.html file.
 
-Please create your own api key and replace dummy client id and key with your own client id and api key.
+Please create your API key and replace the dummy client id and key with your client id and API key.
 
+This application was built during Learning JavaScript from "The modern JavaScript" course offered by Brad Traversy
