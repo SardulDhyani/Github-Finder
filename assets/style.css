@@ -1,0 +1,48 @@
+:root {
+    --color-primary: #022c43;
+    --color-secondary: #053f5e;
+    --color-extra: #115173;
+    --color-white: #ffffff;
+    --color-black:  #022c43;
+}
+
+body {
+    background-color: var(--color-primary) !important;
+}
+
+.t-white {
+    color: var(--color-white) !important;
+}
+
+.t-black {
+    color: var(--color-black) !important;
+}
+
+.backg-secondary {
+    background-color: var(--color-secondary) !important;
+}
+
+.backg-secondary {
+    background-color: var(--color-secondary) !important;
+}
+
+.backg-extra {
+    background-color: var(--color-extra) !important;
+}
+
+.custom-checkbox {
+    cursor: pointer;
+    background: #115173;
+    padding: 6px 20px 0 20px;
+    border-radius: 25px;
+}
+
+.list-group-item {
+    background-color: var(--color-black) !important;
+    color: var(--color-white) !important;
+}
+
+.card-c {
+    background-color: var(--color-black) !important;
+    color: var(--color-white) !important;
+}
