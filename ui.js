@@ -5,7 +5,7 @@ class UI{
 
     showProfile(user){
         this.profile.innerHTML = `
-            <div class="card card-body mb-3">
+            <div class="card card-body mb-3 backg-extra t-white">
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-fluid mb-2" src="${user.avatar_url}">
@@ -42,7 +42,7 @@ class UI{
         let output = '';
         repos.forEach((repo)=>{
             output += `
-                <div class="card card-body mb-2"> 
+                <div class="card card-body mb-2 card-c"> 
                     <div class="row">
                         <div class="col-md-6">
                             <a href="${repo.html_url}" target="_blank">${repo.name}</a>
